@@ -1,0 +1,137 @@
+html{
+	font-size: 62.5%;
+	font-family: KaiTi;
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0;
+}
+svg{
+	position: fixed;
+	top: 2rem;
+	right: 2rem;
+	cursor: pointer;
+}
+.icon:hover{
+	fill: #8a8a8a;
+}
+ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 100%;
+	overflow: hidden;	
+}
+li{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+li p{
+	margin: 0;
+	line-height: 1.5;
+}
+li .words{
+	font-size: 3.5rem;
+}
+li .signature{
+	font-size: 1.8rem;
+}
+li .hello{
+	font-size: 2.4rem;
+}
+#button{
+	width: 100%;
+	text-align: center;
+	font-size: 3rem;
+	color: #CC0000;
+	position: fixed;
+	top:90%;
+	cursor: pointer;
+}
+#floatEditor{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	visibility: hidden; 
+}
+#floatEditor1{
+	position: fixed;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #C0C0C0;
+	opacity: 0.6;
+
+}
+	
+#edit{
+	height: 40rem;
+	width: 40rem;
+	background-color: white;
+	opacity: 1;
+	border-radius: 1.2rem;
+	position: relative;
+}
+
+#closeButton{
+	position: absolute;
+	top: 1.5rem;
+	right: 1.5rem;
+	font-size: 2rem;
+	color: #8a8a8a;
+	cursor: pointer;
+}
+#closeButton:hover{
+	color: #2c2c2c;
+}
+textarea{
+	padding:3rem;
+}
+#words,#signature{
+	resize: none;
+	height: 20rem;
+	width: 36rem;
+	padding: 0;
+	background-color: white;
+	border: 0.1rem;
+	position: absolute;
+	top: 3rem;
+	left: 1.9rem;
+	color: #2c2c2c;
+	font-size: 3rem;
+	outline: none;
+}
+#signature{
+	height: 2rem;
+	top:28rem;
+	font-size: 2rem;
+}
+#confirmButton{
+	position: absolute;
+	top: 35rem;
+	height: 2.4rem;
+	width: 6rem;
+	border-radius: 0.6rem;
+	left: 42.5%;
+	text-align: center;
+	font-size: 2rem;
+	cursor: pointer;
+	color: white;
+	border: 0;
+	background-color: #2c2c2c;
+	opacity: 0.7;
+	outline: none;
+
+}
+#confirmButton:hover{
+	background-color: white;
+	color: #2c2c2c;
+}
